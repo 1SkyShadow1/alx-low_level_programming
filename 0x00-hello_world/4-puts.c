@@ -1,12 +1,15 @@
 #include <stdio.h>
 
+/* This script prints out a string */
 /**
- * This script prints out a string
- * without using printf
+ * main - Entry point
+ *   Return: Always 0 (Success)
  */
 int main(void)
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
-	puts (str);
-	return (0);
+
+	puts(str);
+
+	return (0);/* The script is successful */
 }

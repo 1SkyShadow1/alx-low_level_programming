@@ -15,11 +15,11 @@
 	putchar(ch);
 	}
 	putchar('\n');
-	char ph;
+	char ch;
 
-	for (ph = 'A' ; ph <= 'Z' ; ph++)
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
-	putchar(ph);
+	putchar(ch);
 	}
 	putchar('\n');
 	return (0);

@@ -15,5 +15,12 @@
 	putchar(ch);
 	}
 	putchar('\n');
+	char ph;
+
+	for (ph = 'A' ; ph <= 'Z' ; ph++)
+	{
+	putchar(ph);
+	}
+	putchar('\n');
 	return (0);
 }

@@ -5,10 +5,10 @@
 * @n: integer to make absolute
 * Return: int or int times negative
 */
-int _abs(int num)
+int _abs(int n)
 {
-	if (num > 0)
-	return (num);
+	if (n > 0)
+	return (n);
 	else
-	return (num * -1);
+	return (n * -1);
 }

@@ -5,11 +5,16 @@
 */
 void print_alphabet_x10(void)
 {
-	char tenalpha
+	char alpha;
+	char tenalpha;
 
 	for (tenalpha = '0'; tenalpha < '10'; tenalpha++)
 	{
-	print_alphabet(tenalpha);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+	_putchar(alpha);
 	}
 	_putchar('\n');
+
+	}
 }

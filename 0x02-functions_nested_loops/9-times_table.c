@@ -7,13 +7,29 @@ void times_table(void)
 {
 	int n;
 	int i;
-	int result;
 
 	for (i = 0; i <= 9; ++i)
 	{
-	for (n = 9)
+		for (n = 9);
+	{
+	int table = n * i;
+	{
+	_putchar('0');
 	}
-	_putchar(n * i);
-	return (_putchar(n * i));
+	else if (table <= 9)
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(table + '0');
+	}
+	{
+		_putchar(',');
+		_putchar(' ');
+		_putchar(prod / 10 + '0');
+		_putchar(prod % 10 + '0');
+	}
+	}
 	_putchar('\n');
+	}
 }

@@ -9,9 +9,5 @@
 */
 int mul(int a, int b)
 {
-	int a;
-	int b;
-
-	printf("Answer", a * b);
 	return (a * b);
 }

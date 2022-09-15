@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 /**
 * _isupper - prints number 1 or 0 if c lower or uppercase
 * @c: character to compare

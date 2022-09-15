@@ -8,4 +8,11 @@
 */
 int _isupper(int c);
 
+/**
+* -isdigit.c - checks for a digit
+* @c: parameter being checked
+* Return: 1 if c is digit 0 if not
+*/
+int _isdigit(int c);
+
 #endif

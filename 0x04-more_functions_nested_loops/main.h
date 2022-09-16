@@ -43,5 +43,6 @@ int _putchar(char c);
 *
 * Return: result
 */
-void print_most_numbers(void)
+void print_most_numbers(void);
+
 #endif

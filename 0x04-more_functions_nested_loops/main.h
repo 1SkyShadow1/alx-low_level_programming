@@ -38,4 +38,10 @@ void print_numbers(void);
 */
 int _putchar(char c);
 
+/**
+* print_most_numbers - prints numbers beside 2 and 4
+*
+* Return: result
+*/
+void print_most_numbers(void)
 #endif

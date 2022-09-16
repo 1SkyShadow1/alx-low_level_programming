@@ -45,4 +45,11 @@ int _putchar(char c);
 */
 void print_most_numbers(void);
 
+/**
+* more_numbers - prints numbers from 0 to 14
+*
+* Return: nothing
+*/
+void more_numbers(void);
+
 #endif

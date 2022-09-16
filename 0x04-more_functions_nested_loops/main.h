@@ -52,4 +52,11 @@ void print_most_numbers(void);
 */
 void more_numbers(void);
 
+/**
+* print_line - printing line n times
+* @n:value to be checked
+* Return: result
+*/
+void print_line(int n);
+
 #endif

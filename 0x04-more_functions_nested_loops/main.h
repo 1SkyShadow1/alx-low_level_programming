@@ -66,4 +66,17 @@ void print_line(int n);
 */
 void print_diagonal(int n);
 
+/**
+* print_square - check the code for Holberton School students.
+* @size: value to be checked
+* Return: nothing
+*/
+void print_square(int size);
+
+/**
+* main - show us the numbers that may be divided by 3 and 5 and both of them
+* Return: Always 0.
+*/
+int main(void);
+
 #endif

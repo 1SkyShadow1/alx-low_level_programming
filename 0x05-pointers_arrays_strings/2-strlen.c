@@ -7,5 +7,7 @@
 */
 int _strlen(char *s)
 {
+	int *s;
+
 	printf("strlen(str) :  %d\n", *s);
 }

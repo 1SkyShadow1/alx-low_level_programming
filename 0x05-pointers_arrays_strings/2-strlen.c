@@ -7,7 +7,8 @@
 */
 int _strlen(char *s)
 {
-	int *s;
+	char s[];
+	int i;
 
-	printf("strlen(str) :  %d\n", *s);
+	for (i = 0; s[i] != '\0'; ++i);
 }

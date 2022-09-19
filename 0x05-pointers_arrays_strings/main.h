@@ -31,4 +31,11 @@ int _strlen(char *s);
 */
 void _puts(char *str);
 
+/**
+* _putchar - puts a character
+* @c: variable char
+* Return: Always 0
+*/
+int _putchar(char c);
+
 #endif

@@ -57,4 +57,12 @@ void rev_string(char *s);
 */
 void puts2(char *str);
 
+
+/**
+* puts_half - counts from top half
+* @str: points to char
+* Return: 0
+*/
+void puts_half(char *str);
+
 #endif

@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
 * puts2 - integer swapped with pointer
 * @str: pointer to a char

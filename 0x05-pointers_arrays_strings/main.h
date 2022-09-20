@@ -50,4 +50,11 @@ void print_rev(char *s);
 */
 void rev_string(char *s);
 
+/**
+* puts2 - integer swapped with pointer
+* @str: pointer to a char
+* Return: string
+*/
+void puts2(char *str)
+
 #endif

@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	while (*(str + a) != '\0')
 	{
-		a++
+		a++;
 	}
 	length = a;
 	if (length % 2 == 0)
@@ -22,13 +22,13 @@ void puts_half(char *str)
 	}
 	else
 	{
-		count = (lenth - 1) / 2;
+		count = (length - 1) / 2;
 	}
 	b = length - count;
 	while (*(str = b) != '\0')
 	{
 		_putchar(*(str + b));
-		b++
+		b++;
 	}
 	_putchar('\n');
 }

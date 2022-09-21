@@ -67,7 +67,7 @@ void print_line(int n);
 void print_diagonal(int n);
 
 /**
-* print_square - check the code for Holberton School students.
+* print_square - prints square
 * @size: value to be checked
 * Return: nothing
 */

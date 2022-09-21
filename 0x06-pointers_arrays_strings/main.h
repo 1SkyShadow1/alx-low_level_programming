@@ -16,4 +16,13 @@ char *_strcat(char *dest, char *src);
 */
 int _putchar(char c);
 
+/**
+* *_strncat - concatenates two strings
+* @dest: pointer for destination
+* @src: pointer for source
+* @n: bytes for source
+* Return: char value
+*/
+char *_strncat(char *dest, char *src, int n);
+
 #endif

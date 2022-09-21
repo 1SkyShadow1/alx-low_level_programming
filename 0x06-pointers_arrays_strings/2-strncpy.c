@@ -1,16 +1,17 @@
 #include "main.h"
 /**
-* *_strncpy - copies one str to another
+* _strncpy - copies one str to another
 * @dest: pointer for destination
 * @src: pointer for source
 * @n: number of times to append
-* Return char value
+* Return: char value
 */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a;
 	int b;
 
+	*src = *dest;
 	for (b = 0; dest[b] != '\0'; b++)
 	{}
 
@@ -19,7 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 	dest[b + a] = src[a];
 	}
 	dest[b + a] = '\0';
-	*src = *dest;
 	return (dest);
 	}
 }

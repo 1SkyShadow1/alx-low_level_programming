@@ -64,4 +64,18 @@ char *string_toupper(char *s);
 */
 char *leet(char *s);
 
+/**
+* _indexOf - returns boolean if special  character
+* @a: character to print to stdout
+* Return: true or false
+*/
+int _indexOf(char a);
+
+/**
+* cap_string - capitalizes the string
+* @s: string
+* Return: the string capitalized
+*/
+char *cap_string(char *s);
+
 #endif

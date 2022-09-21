@@ -42,4 +42,12 @@ char *_strncpy(char *dest, char *src, int n);
 */
 int _strcmp(char *s1, char *s2);
 
+/**
+* reverse_array - prints integers in reverse
+* @a: pointer to int
+* @n: number of elements of the array
+* Return: int value
+*/
+void reverse_array(int *a, int n)
+
 #endif

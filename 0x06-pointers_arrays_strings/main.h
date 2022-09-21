@@ -50,4 +50,11 @@ int _strcmp(char *s1, char *s2);
 */
 void reverse_array(int *a, int n);
 
+/**
+* string_toupper - uppers a lower
+* @s: character to make upper
+* Return: string
+*/
+char *string_toupper(char *s);
+
 #endif

@@ -25,4 +25,13 @@ int _putchar(char c);
 */
 char *_strncat(char *dest, char *src, int n);
 
+/**
+* *_strncpy - copies one str to another
+* @dest: pointer for destination
+* @src: pointer for source
+* @n: number of times to append
+* Return char value
+*/
+char *_strncpy(char *dest, char *src, int n);
+
 #endif

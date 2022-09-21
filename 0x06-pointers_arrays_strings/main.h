@@ -48,6 +48,6 @@ int _strcmp(char *s1, char *s2);
 * @n: number of elements of the array
 * Return: int value
 */
-void reverse_array(int *a, int n)
+void reverse_array(int *a, int n);
 
 #endif

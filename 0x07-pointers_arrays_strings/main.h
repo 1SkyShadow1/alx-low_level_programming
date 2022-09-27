@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef _MAIN_
+#define _MAIN_
 
 /**
 * _memset - fills memory with a constant byte

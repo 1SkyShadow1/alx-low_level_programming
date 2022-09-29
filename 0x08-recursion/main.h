@@ -44,4 +44,19 @@ int factorial(int n);
 */
 int _pow_recursion(int x, int y);
 
+/**
+* sqrt_mod - Recursive function to find a square root
+* @n: Given number
+* @i: Variable counter
+* Return: Square root of a given number
+*/
+int sqrt_mod(int n, int i);
+
+/**
+* _sqrt_recursion - Square root of a given number
+* @n: Integer variable
+* Return: Integer variable
+*/
+int _sqrt_recursion(int n);
+
 #endif

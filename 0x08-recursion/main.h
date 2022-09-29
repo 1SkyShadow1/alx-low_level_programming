@@ -22,4 +22,11 @@ void _putchar(char c);
 */
 void _print_rev_recursion(char *s);
 
+/**
+* _strlen_recursion - returns the length of a string
+* @s: pointer to string
+* Return: length of a string
+*/
+int _strlen_recursion(char *s);
+
 #endif

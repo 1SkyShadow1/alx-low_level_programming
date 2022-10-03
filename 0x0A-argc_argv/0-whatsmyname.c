@@ -7,7 +7,7 @@
 * @argv: char in  prog
 * Return: name of prog
 */
-int _whatsmyname(int argc, char *argv)
+int _whatsmyname(int argc, char *argv[])
 {
 	char i;
 

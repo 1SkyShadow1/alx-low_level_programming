@@ -11,10 +11,9 @@ int _whatsmyname(int argc, char *argv)
 {
 	char i;
 
-	argv[0] = argv[1];
-	for (i = 0; i < argc; i++)
-		i++;
+	if (argc == 1)
 	{
+	for (i = 0; i < argc; i++)
 	printf("%s\n", argv[i]);
 	}
 }

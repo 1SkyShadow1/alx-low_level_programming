@@ -15,7 +15,6 @@ int _whatsmyname(int argc, char *argv)
 	for (i = 0; i < argc; i++)
 		i++;
 	{
-	_putchar("%s\n", argv[i]);
+	printf("%s\n", argv[i]);
 	}
-	_putchar("\n");
 }

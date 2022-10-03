@@ -9,7 +9,7 @@
 */
 int _whatsmyname(int argc, char *argv[])
 {
-	char i;
+	int i;
 
 	if (argc == 1)
 	{

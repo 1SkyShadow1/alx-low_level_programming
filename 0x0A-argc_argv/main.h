@@ -7,7 +7,7 @@
 * @argv: char in  prog
 * Return: name of prog
 */
-int _whatsmyname(int argc, char* argv[]);
+int main(int argc, char* argv[]);
 
 /**
 * _putchar - writes the character c to std

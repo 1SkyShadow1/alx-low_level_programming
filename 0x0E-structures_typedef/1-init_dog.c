@@ -1,4 +1,6 @@
-#include "main.h"
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
 * init_dog - initializes variable of type dog
 * struct dog - points to the d pointer

@@ -1,18 +1,20 @@
 #include "main.h"
+
 /**
-* puts2 - integer swapped with pointer
-* @str: pointer to a char
-* Return: string
-*
-*/
+ * puts2 - prints every other character of a given string
+ * @str: passed string pointer
+ *
+ * Return: void
+ */
 void puts2(char *str)
 {
-	int j;
+	int i = 0;
 
-	for (j = 0; *(str + j) != '\0'; j++)
+	while (*(str + i) != '\0')
 	{
-	if (j % 2 == 0)
-	_putchar(*(str + j));
+		if (i % 2 == 0)
+			_putchar(*(str + i));
+		i++;
 	}
 	_putchar('\n');
 }

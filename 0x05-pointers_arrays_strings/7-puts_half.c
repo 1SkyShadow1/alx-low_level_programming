@@ -1,34 +1,25 @@
 #include "main.h"
+
 /**
-* puts_half - counts from top half
-* @str: points to char
-* Return: 0
-*
-*/
+ * puts_half - prints the second half of a given string
+ * @str: passed string pointer
+ *
+ * Return: void
+ */
 void puts_half(char *str)
 {
-	int a, b, length, count;
+	int len = 0;
 
-	a = 0;
-
-	while (*(str + a) != '\0')
-	{
-		a++;
-	}
-	length = a;
-	if (length % 2 == 0)
-	{
-		count = length / 2;
-	}
+	while (*(str + len) != '\0')
+		len++;
+	if (len % 2 == 0)
+		len /= 2;
 	else
+		len = len / 2 + 1;
+	while (*(str + len) != '\0')
 	{
-		count = (length - 1) / 2;
-	}
-	b = length - count;
-	while (*(str + b) != '\0')
-	{
-		_putchar(*(str + b));
-		b++;
+		_putchar(*(str + len));
+		len++;
 	}
 	_putchar('\n');
 }

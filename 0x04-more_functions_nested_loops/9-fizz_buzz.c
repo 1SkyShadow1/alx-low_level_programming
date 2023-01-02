@@ -1,26 +1,28 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
-* main - show us the numbers that may be divided by 3 and 5 and both of them
-*
-* Return: Always 0.
-*/
+ * main - prints numbers from 1 to 100 followed by a new line and replaces
+ * Fizz, Buzz or FizzBuzz if the number is a multiple of 3, 5
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	int i;
+	int a = 1, i = 2;
 
-	for (i = 1 ; i < 100 ; i++)
+	printf("%d", a);
+	while (i < 101)
 	{
-	if (i % 3 == 0 && i % 5 == 0)
-	printf("FizzBuzz ");
-	else if (i % 5 == 0)
-	printf("Buzz ");
-	else if (i % 3 == 0)
-	printf("Fizz ");
-	else
-	printf("%d ", i);
+		if (i % 3 == 0 && i % 5 == 0)
+			printf(" FizzBuzz");
+		else if (i % 3 == 0)
+			printf(" Fizz");
+		else if (i % 5 == 0)
+			printf(" Buzz");
+		else
+			printf(" %d", i);
+		i++;
 	}
-	printf("Buzz");
 	printf("\n");
 	return (0);
 }

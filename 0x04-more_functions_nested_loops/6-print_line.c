@@ -1,16 +1,22 @@
 #include "main.h"
+
 /**
-* print_line - printing line n times
-* @n:value to be checked
-* Return: result
-*/
+ * print_line - prints line using "_" character of n length
+ * @n: length of the line
+ *
+ * Return: void
+ */
 void print_line(int n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 1; i <= n; i++)
+	if (n > 0)
 	{
-	_putchar('_');
+		while (i < n)
+		{
+			_putchar(95);
+			i++;
+		}
 	}
 	_putchar('\n');
 }

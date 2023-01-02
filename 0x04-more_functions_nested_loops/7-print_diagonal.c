@@ -1,23 +1,33 @@
 #include "main.h"
+
 /**
-* print_diagonal - prints diagonal line
-* @n: number to be checked
-* Return: nothing
-*/
+ * print_diagonal - prints diagonal line using "\" character of n length
+ * @n: length of the line
+ *
+ * Return: void
+ */
+
 void print_diagonal(int n)
 {
-	int i;
-	int j;
+	int i = 1;
 
-	if (n <= 0)
-	_putchar('\n');
-	for (i = 1; i <= n; i++)
+	if (n > 0)
 	{
-	for (j = 1; j < i; j++)
-	{
-	_putchar(' ');
+		_putchar(92);
+
+		while (i < n)
+		{
+			int count = 0;
+
+			_putchar('\n');
+			while (count < i)
+			{
+				_putchar(' ');
+				count++;
+			}
+			_putchar(92);
+			i++;
+		}
 	}
-	_putchar('\\');
 	_putchar('\n');
-	}
 }

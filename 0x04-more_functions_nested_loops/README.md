@@ -1,1 +1,1 @@
-isupper prints number is c is upper or lower
+0x04. C - More functions, more nested loops

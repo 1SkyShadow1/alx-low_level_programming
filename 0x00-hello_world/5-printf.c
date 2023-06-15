@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-/* This scripts prints using printf */
 /**
  * main - Entry point
  * Return: Always 0 (Success)

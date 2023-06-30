@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * print_number - Prints integer
- * @n: integer variable
+ * print_number - Prints an integer
+ * @n: interger variable
  */
 void print_number(int n)
 {
@@ -12,11 +11,10 @@ void print_number(int n)
 		n = -n;  /* Convert negative number to positive*/
 	}
 
-	if (n / 10 != 0 || n == 0)
+	if (n / 10 != 0)
 	{
 		print_number(n / 10);  /* Recursive call to print digits recursively*/
 	}
 
 	_putchar('0' + n % 10);  /* Print the current digit*/
 }
-

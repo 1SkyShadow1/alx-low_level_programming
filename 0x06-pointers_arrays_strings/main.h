@@ -78,4 +78,10 @@ int _indexOf(char a);
 */
 char *cap_string(char *s);
 
+
+
+
+
+
+char *rot13(char *);
 #endif

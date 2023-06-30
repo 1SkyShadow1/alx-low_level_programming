@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints a[2] = 98 without the using variables
- * return - Always 0
+ * main - Changes array index to new value
+ * Return: Always 0
  */
 int main(void)
 {

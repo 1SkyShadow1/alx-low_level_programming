@@ -7,45 +7,42 @@
  * print_all - prints anything
  * @format: any variable type
  * Return: Nothing
-**/
+ **/
 
 void print_all(const char * const format, ...)
 {
-int i = 0, j = 0;
-char *str;
-va_list ls;
-va_start(ls, format);
-while (format[i])
-{
-switch (format[i])
-{
-case 'c':
-printf("%c", va_arg(ls, int));
-break;
-case 'i':
-printf("%i", va_arg(ls, int));
-break;
-case 'f':
-printf("%f", va_arg(ls, double));
-break;
-case 's':
-str = va_arg(ls, char *);
-if (!str)
-str = "(nil)";
-
-printf("%s", str);
-break;
-}
-j = i + 1;
-
-while (format[j] && (format[j] == 'c' || format[j] == 'i' ||
-format[j] == 'f' || format[j] == 's'))
-{
-printf(", ");
-break;
-}
-
-i++;
+	int i = 0;
+	char *str;
+	va_list ls;
+	va_start(ls, format);
+	if (format)
+	{
+	while (format[i])
+	{
+		switch (format[i])
+		{
+			case 'c':
+				printf(" %c", va_arg(ls, int));
+				break;
+			case 'i':
+				printf(" %i", va_arg(ls, int));
+				break;
+			case 'f':
+				printf(" %f", va_arg(ls, double));
+				break;
+			case 's':
+				str = va_arg(ls, char *);
+				if (!str)
+					str = "(nil)";
+				printf(" %s", str);
+				break;
+			default:
+				i++;
+					continue;
+		}
+		printf(", ");
+		i++;
+	}
 }
 
 printf("\n");

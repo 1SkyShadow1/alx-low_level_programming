@@ -15,9 +15,7 @@ int i = 0, j = 0;
 char *str;
 va_list ls;
 va_start(ls, format);
-if (format)
-{
-while (format && format[i])
+while (format[i])
 {
 switch (format[i])
 {
@@ -49,7 +47,7 @@ break;
 
 i++;
 }
-}
+
 printf("\n");
 va_end(ls);
 }

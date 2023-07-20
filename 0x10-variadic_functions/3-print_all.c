@@ -43,7 +43,6 @@ while (format[j] && (format[j] == 'c' || format[j] == 'i' ||
 format[j] == 'f' || format[j] == 's'))
 {
 printf(", ");
-j++;
 break;
 }
 
@@ -51,5 +50,4 @@ i++;
 }
 printf("\n");
 va_end(ls);
-return;
 }

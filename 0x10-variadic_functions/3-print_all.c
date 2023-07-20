@@ -36,6 +36,9 @@ str = "(nil)";
 
 printf("%s", str);
 break;
+default:
+i++;
+continue;
 }
 j = i + 1;
 

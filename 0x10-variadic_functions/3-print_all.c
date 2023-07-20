@@ -12,7 +12,7 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *str;
+	char *str, *sep = "";
 	va_list ls;
 	va_start(ls, format);
 	if (format)
@@ -22,25 +22,25 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'c':
-				printf("%c", va_arg(ls, int));
+				printf("%s%c", sep, va_arg(ls, int));
 				break;
 			case 'i':
-				printf("%i", va_arg(ls, int));
+				printf("%s%i", sep, va_arg(ls, int));
 				break;
 			case 'f':
-				printf("%f", va_arg(ls, double));
+				printf("%s%f", sep, va_arg(ls, double));
 				break;
 			case 's':
 				str = va_arg(ls, char *);
 				if (!str)
 					str = "(nil)";
-				printf("%s", str);
+				printf("%s%s", sep, str);
 				break;
 			default:
 				i++;
 					continue;
 		}
-		printf(", ");
+		sep = ", ";
 		i++;
 	}
 }

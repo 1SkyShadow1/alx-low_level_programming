@@ -31,14 +31,11 @@ printf("%f", va_arg(ls, double));
 break;
 case 's':
 str = va_arg(ls, char *);
-if (str == NULL)
+if (!str)
 str = "(nil)";
 
 printf("%s", str);
 break;
-default:
-i++;
-continue;
 }
 j = i + 1;
 

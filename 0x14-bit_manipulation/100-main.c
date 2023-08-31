@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+/*main - entry point of the program*/
 int main(void)
 {
 	int n;
